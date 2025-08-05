@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Harrison Locks - Contact & Support</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap and Font Awesome -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background: #fff;
+      overflow-x: hidden;
+    }
+
+    /* Navbar Colors and Spacing */
+    .navbar {
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-nav .nav-link {
+      color: #1f3c8a;
+      font-weight: 600;
+    }
+
+    .navbar-nav .dropdown-menu {
+      background-color: #fff;
+      border: 1px solid #ccc;
+    }
+
+    .navbar-nav .dropdown-item {
+      color: #1f3c8a;
+      font-weight: 500;
+    }
+
+    /* Logo and Hero Image */
+    .logo {
+      height: 50px;
+    }
+
+    .hero-img {
+      height: 100px;
+      max-width: 100%;
+    }
+
+    /* Mobile Fixes */
+    @media (max-width: 992px) {
+      .hero-img {
+        display: none;
+        /* Hide right image */
+      }
+    }
+
+    @media (max-width: 767.98px) {
+      .logo {
+        height: 40px;
+        width: auto;
+        max-width: 140px;
+      }
+
+      .navbar-toggler {
+        padding: 0.25rem 0.5rem;
+        font-size: 1rem;
+        margin-left: 8rem;
+      }
+    }
+
+    .icon-title {
+      color: #00a0e3;
+      font-weight: 700;
+      font-size: 1.5rem;
+    }
+
+    .support-item {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .support-item img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .lion-image {
+      max-width: 300px;
+    }
+
+    .toll-free {
+      font-weight: bold;
+      color: #132d77;
+      margin-top: 10px;
+      font-size: 1.1rem;
+    }
+
+    footer {
+      background-color: #f7f9fc;
+      color: #001f4d;
+      margin-top: 40px;
+    }
+
+    footer .fa-brands {
+      font-size: 18px;
+    }
+
+    .scroll-top-btn {
+      font-size: 18px;
+      padding: 4px 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Top Bar -->
+  <div class="top-bar py-2">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap">
+      <div>Toll Free No: 1800-572-5795</div>
+      <div class="d-flex align-items-center gap-2">
+        <input type="text" class="form-control form-control-sm me-2" placeholder="Search..." />
+        <i class="fab fa-whatsapp"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md bg-white py-2">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap">
+      <!-- Logo and Hamburger -->
+      <div class="d-flex align-items-center">
+        <!-- Logo always visible -->
+        <a class="navbar-brand me-2" href="#">
+          <img src="assests/Harrison Logo.png" alt="Logo" style="max-height: 30px" />
+        </a>
+
+        <!-- Hamburger visible only on mobile -->
+        <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <!-- Menu always visible on md+ screens, collapses on sm -->
+      <div class="collapse navbar-collapse justify-content-center mt-2 mt-md-0" id="mainNav">
+        <ul class="navbar-nav text-center">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">About Us</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Vision</a></li>
+              <li><a class="dropdown-item" href="#">Mission</a></li>
+              <li><a class="dropdown-item" href="#">Achievements</a></li>
+              <li><a class="dropdown-item" href="#">CSR Activity</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Join Us</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">As a Partner</a></li>
+              <li><a class="dropdown-item" href="#">As an Employee</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Media</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Catalogue</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Blogs</a></li>
+        </ul>
+      </div>
+
+      <!-- Right-side image always visible -->
+      <div class="d-none d-sm-block">
+        <img src="assests/Dharmender Ji.png" alt="Hero" class="img-fluid" style="max-height: 60px" />
+      </div>
+    </div>
+  </nav>
+
+  <div id="heroCarousel" class="carousel slide hero" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container">
+          <h1>The Extra O collection is now available!</h1>
+          <p>Discover the collection</p>
+        </div>
+      </div>
+
+      <!-- Add more carousel items below if needed -->
+    </div>
+
+    <!-- Arrow buttons -->
+    <button class="arrow-btn arrow-left" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <i class="fas fa-arrow-left"></i>
+    </button>
+    <button class="arrow-btn arrow-right" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <i class="fas fa-arrow-right"></i>
+    </button>
+
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <!-- Add more indicators if more slides are added -->
+    </div>
+
+    <!-- Right logo slider -->
+    <div class="right-logo-slider">
+      <img src="assests/3 Kitchen Logo Icon.png" alt="Kitchen Logo" />
+      <img src="assests/4 Haance Logo Icon.png" alt="Haance Logo" />
+      <img src="assests/5 E Dor Logo Icon.png" alt="Door Logo" />
+      <img src="assests/6 S & T Logo Icon.png" alt="SQT Logo" />
+      <img src="assests/7 Profile X Logo Icon.png" alt="ProfileX Logo" />
+      <img src="assests/8 Power X Logo Icon.png" alt="PowerX Logo" />
+    </div>
+  </div>
+
+  <!--  about us section code -->
+  <div class="hero-section">
+    <!-- <img src="" alt="Logo" class="top-logo"> -->
+    <div class="hero-overlay">
+      <h5>WELCOME TO HARRISON LOCKS</h5>
+      <h2>Pioneers in the lock & hardware industry in India</h2>
+      <p>
+        <strong>Quality at its core</strong><br />Our R & D department is
+        always at work to improve quality, looks and style.
+      </p>
+      <p>
+        <strong>Brand leader in the segment for over 7 decades</strong><br />Thanks to the trust shown by our customers
+        over these years. We
+        look forward to a longer journey ahead with you!
+      </p>
+      <button class="btn">READ MORE</button>
+    </div>
+  </div>
+
+  <!-- section code starts from here-->
+  <section class="stats-section container-fluid py-5">
+    <div class="row text-center justify-content-center g-3 g-md-4">
+      <div class="col-6 col-md-3 stat-box px-2">
+        <div class="stat-icon bg-dark-blue">
+          <img src="assests/1 75+ icon.png" alt="75 Years of Trust" />
+        </div>
+        <div class="stat-number">75+</div>
+        <div class="stat-label">Years of Trust</div>
+      </div>
+
+      <div class="col-6 col-md-3 stat-box px-2">
+        <div class="stat-icon bg-light-blue">
+          <img src="assests/2 Network Icon.png" alt="Network" />
+        </div>
+        <div class="stat-number">1500+</div>
+        <div class="stat-label">Network</div>
+      </div>
+
+      <div class="col-6 col-md-3 stat-box px-2">
+        <div class="stat-icon bg-dark-blue">
+          <img src="assests/3 Product Icon.png" alt="Products" />
+        </div>
+        <div class="stat-number">800+</div>
+        <div class="stat-label">Products</div>
+      </div>
+
+      <div class="col-6 col-md-3 stat-box px-2">
+        <div class="stat-icon bg-light-blue">
+          <img src="assests/4 Employee Icon.png" alt="Employee" />
+        </div>
+        <div class="stat-number">1000+</div>
+        <div class="stat-label">Employee</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- vision and mission code -->
+  <section class="section-vm container">
+    <div class="row align-items-center mb-5">
+      <!-- Vision Left Image -->
+      <div class="col-md-5 text-center">
+        <div class="vm-image mx-auto">
+          <div class="bg-layer"></div>
+          <img src="assests/Vision Image.png" alt="Vision Eye Image" class="img-fluid" />
+        </div>
+      </div>
+
+      <!-- Vision Text -->
+      <div class="col-md-7">
+        <h2 class="vm-title">VISION</h2>
+        <p>
+          Vision without action is merely a dream. Action without vision just
+          passes the time. Vision with action can change the world.
+        </p>
+        <p>
+          <strong>HARRISON</strong> strives to be a trustworthy company, one
+          of the best in security & door hardware segments and a preferred
+          partner in all door, furniture, wardrobe, kitchen hardware &
+          security solution segments. We also aim to be a forward-looking
+          company– one that promotes a great working environment and
+          reliability for all our partners in success.
+        </p>
+      </div>
+    </div>
+
+    <div class="row align-items-center flex-md-row-reverse">
+      <!-- Mission Image -->
+      <div class="col-md-5 text-center">
+        <div class="vm-image mx-auto">
+          <div class="bg-layer"></div>
+          <img src="assests/Mission Image.png" alt="Mission Chess Image" class="img-fluid" />
+        </div>
+      </div>
+
+      <!-- Mission Text -->
+      <div class="col-md-7">
+        <h2 class="vm-title">MISSION</h2>
+        <p class="quote">"The secret of success is consistency"</p>
+        <p>
+          Rapid globalization of our business in order to enrich the quality
+          of life keeps Harrison’s R&D department always ready to introduce
+          their new series of the world class, modern, sleek and
+          trendy-looking yet strong and sturdy with safety feature products
+          time to time that matches international specifications and standards
+          at affordable prices. The following important pillars on which our
+          company is based
+        </p>
+        <p class="mission-points">TRUST</p>
+        <p class="mission-points">RELIABILITY AND INTEGRITY</p>
+        <p class="mission-points">CUSTOMER SERVICE & SATISFACTION</p>
+        <p class="mission-points">VALUE FOR MONEY</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section class="achievements-section">
+    <h2>ACHIEVEMENTS</h2>
+    <div class="achievement-slider">
+      <div class="achievement-item">
+        <img src="assests/achievemnts/1.jpg" alt="Award 2023" />
+        <div class="year-badge">2023</div>
+        <div class="achievement-title">
+          BUSINESS ACHIEVEMENT Award 2023 For Excellence In Locks & Hardware
+          Solution
+        </div>
+      </div>
+      <div class="achievement-item">
+        <img src="assests/achievemnts/2.jpg" alt="Award 2023" />
+        <div class="year-badge">2023</div>
+        <div class="achievement-title">
+          ET LEADERSHIP Award 2023 For Excellence In Door & Kitchen Hardware
+        </div>
+      </div>
+      <div class="achievement-item">
+        <img src="assests/achievemnts/3.jpg" alt="Award 2019" />
+        <div class="year-badge">2019</div>
+        <div class="achievement-title">
+          TIMES BUSINESS AWARD 2019 For Most Trusted Brand In Locks & Hardware
+          Solution
+        </div>
+      </div>
+      <div class="achievement-item">
+        <img src="assests/achievemnts/4.jpg" alt="Award 2018" />
+        <div class="year-badge">2018</div>
+        <div class="achievement-title">
+          INDIAN OF THE YEAR 2018 For Emerging Kitchen Hardware Brand of the
+          year
+        </div>
+      </div>
+      <div class="achievement-item">
+        <img src="assests/achievemnts/5.jpg" alt="Award 2017" />
+        <div class="year-badge">2017</div>
+        <div class="achievement-title">
+          GLOBAL QUALITY AWARDS 2017 for Best Quality Standards in Lock &
+          Security Solutions
+        </div>
+      </div>
+      <div class="achievement-item">
+        <img src="assests/achievemnts/6.jpg" alt="Award 2017" />
+        <div class="year-badge">2017</div>
+        <div class="achievement-title">
+          Times Business QUALITY AWARDS 2017 for Best Quality Standards in
+          Lock & Security Solutions
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT WE OFFER -->
+  <section class="offer-section">
+    <h2>What <span>We</span> Offer</h2>
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-3 col-sm-6">
+          <div class="offer-card">
+            <img src="assests/offer/1 Lock Division.png" alt="Locks Division" />
+            <h5>LOCKS DIVISION</h5>
+            <p>Example to view for Product etc. or Product etc.</p>
+            <a href="#" class="btn">View More</a>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="offer-card">
+            <img src="assests/offer/2 Door Hardware.png" alt="Door Hardware" />
+            <h5>DOOR HARDWARE</h5>
+            <p>Example to view for Product etc. or Product etc.</p>
+            <a href="#" class="btn">View More</a>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="offer-card">
+            <img src="assests/offer/3 Builder Hardware.png" alt="Builder Hardware" />
+            <h5>BUILDER HARDWARE</h5>
+            <p>Example to view for Product etc. or Product etc.</p>
+            <a href="#" class="btn">View More</a>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="offer-card">
+            <img src="assests/offer/4 Furniture & Kitchen.png" alt="Furniture & Kitchen" />
+            <h5>FURNITURE & KITCHEN</h5>
+            <p>Example to view for Product etc. or Product etc.</p>
+            <a href="#" class="btn">View More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- digital products code start from here -->
+  <div class="container-fluid product-section bg-white py-5">
+    <div class="container">
+      <div class="row align-items-center g-4 flex-wrap">
+        <!-- Left Image -->
+        <div class="col-lg-5 col-md-12 text-center">
+          <img src="assests/digital/1.digital products.png" alt="Digital Lock" class="img-fluid w-100 custom-lock-img"
+            style="object-fit: contain; max-height: 500px" />
+        </div>
+
+        <!-- Right Content -->
+        <div class="col-lg-7 col-md-12">
+          <h2 class="product-title">DIGITAL PRODUCTS</h2>
+          <p class="product-subtitle">
+            Brand leader in the segment for over 7 decades
+          </p>
+          <p class="product-text">
+            Thanks to the trust shown by our customers over these years. We
+            look forward to a longer journey ahead with you!
+          </p>
+
+          <!-- Cards Row -->
+          <div class="row g-3 mb-4">
+            <div class="col-12 col-sm-4">
+              <div class="info-card text-center">
+                <img src="assests/digital/2 image.jpg" alt="Electronic Rim Locks" class="img-fluid" />
+                <h6>ELECTRONIC RIM LOCKS</h6>
+                <button class="btn btn-primary btn-sm">View More</button>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4">
+              <div class="info-card text-center">
+                <img src="assests/digital/3 Image.jpg" alt="Biometric Lock" class="img-fluid" />
+                <h6>BIOMETRIC LOCK</h6>
+                <button class="btn btn-primary btn-sm">View More</button>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4">
+              <div class="info-card text-center">
+                <img src="assests/digital/4 Image.jpg" alt="Digital Safes" class="img-fluid" />
+                <h6>DIGITAL SAFES</h6>
+                <button class="btn btn-primary btn-sm">View More</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Read More Button -->
+          <button class="btn btn-outline-dark">READ MORE</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- customer review cide start from here -->
+  <section class="py-5 bg-white">
+    <div class="container">
+      <!-- Top Section: Customer Happiness -->
+      <div class="row align-items-start mb-5">
+        <!-- Cards -->
+        <div class="col-lg-8">
+          <div class="row g-3">
+            <!-- Card 1 -->
+            <div class="col-6 col-sm-4 col-md-3">
+              <div class="card h-100 text-center">
+                <img src="assests/test/1 Architect image.jpg" class="card-img-top" alt="Architect" />
+                <div class="card-body">
+                  <h6 class="mb-0">ARCHITECT</h6>
+                  <small class="text-muted">Ruchi & Shaishank</small><br />
+                  <button class="btn btn-sm btn-primary mt-2">PLAY</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Repeat Cards -->
+            <div class="col-6 col-sm-4 col-md-3">
+              <div class="card h-100 text-center">
+                <img src="assests/test/2 Interior Designer.jpg" class="card-img-top" alt="Interior D" />
+                <div class="card-body">
+                  <h6 class="mb-0">INTERIOR D.</h6>
+                  <small class="text-muted">Renu Chandhok</small><br />
+                  <button class="btn btn-sm btn-primary mt-2">PLAY</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3">
+              <div class="card h-100 text-center">
+                <img src="assests/test/3 Builder.jpg" class="card-img-top" alt="BUILDER" />
+                <div class="card-body">
+                  <h6 class="mb-0">BUILDER</h6>
+                  <small class="text-muted">Uday Khanna</small><br />
+                  <button class="btn btn-sm btn-primary mt-2">PLAY</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3">
+              <div class="card h-100 text-center">
+                <img src="assests/test/4 Channel Parter.jpg" class="card-img-top" alt="Channel partner" />
+                <div class="card-body">
+                  <h6 class="mb-0">CHANNEL PARTNER</h6>
+                  <small class="text-muted">Sushant Kedia</small><br />
+                  <button class="btn btn-sm btn-primary mt-2">PLAY</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Text -->
+        <div class="col-lg-4 mt-4 mt-lg-0 text-center text-lg-start">
+          <h2 class="fw-bold text-primary mb-2">
+            CUSTOMER <br />
+            HAPPINESS
+          </h2>
+          <p class="text-secondary mb-0">
+            Your happiness is our biggest reward.
+          </p>
+        </div>
+      </div>
+
+      <!-- Bottom Section: CSR Activities -->
+      <div class="row align-items-start">
+        <!-- Text -->
+        <div class="col-lg-4 mb-4 mb-lg-0 text-center text-lg-start">
+          <h2 class="fw-bold text-primary">
+            CSR <br /><span class="text-dark">ACTIVITIES</span>
+          </h2>
+          <p class="text-secondary">Hand in Hand for a Better World.</p>
+        </div>
+
+        <!-- Cards -->
+        <div class="col-lg-8">
+          <div class="row g-3">
+            <!-- CSR Card 1 -->
+            <div class="col-6 col-sm-4 col-md-3">
+              <div class="card h-100 text-center">
+                <img src="assests/csr/1 Ram Mander.jpg" class="card-img-top" alt="CSR 1" />
+                <div class="card-body">
+                  <h6 class="mb-0">RAM MANDIR</h6>
+                  <small class="text-muted">50 KG Biggest Lock</small><br />
+                  <button class="btn btn-sm btn-info mt-2">Read More</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- CSR Card 2 -->
+            <div class="col-6 col-sm-4 col-md-3">
+              <div class="card h-100 text-center">
+                <img src="assests/csr/2 Mahakumbh.jpg" class="card-img-top" alt="CSR 2" />
+                <div class="card-body">
+                  <h6 class="mb-0">MAHAKUMBH</h6>
+                  <small class="text-muted">10,000 Lock Distribution</small><br />
+                  <button class="btn btn-sm btn-info mt-2">Read More</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- CSR Card 3 -->
+            <div class="col-6 col-sm-4 col-md-3">
+              <div class="card h-100 text-center">
+                <img src="assests/csr/Bound Hop.jpg" class="card-img-top" alt="CSR 3" />
+                <div class="card-body">
+                  <h6 class="mb-0">BOUND HOPE</h6>
+                  <small class="text-muted">From Waste to Wisdom</small><br />
+                  <button class="btn btn-sm btn-info mt-2">Read More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Support Section -->
+  <div class="container-fluid">
+    <div class="row align-items-start">
+      <!-- Left Contacts -->
+      <div class="col-lg-8">
+        <div class="row">
+          <!-- Row 1 -->
+          <div class="col-md-6 support-item">
+            <img src="assests/1 Sales.jpg" alt="Sales">
+            <div>
+              <div class="icon-title">Sales</div>
+              <div>+91 9310142401</div>
+              <div>sales@harrisonlocks.com</div>
+            </div>
+          </div>
+          <div class="col-md-6 support-item">
+            <img src="assests/2 PR & CC.png" alt="PR & CC">
+            <div>
+              <div class="icon-title">PR & CC</div>
+              <div>+91 7678250281</div>
+              <div>rplocks@gmail.com</div>
+            </div>
+          </div>
+
+          <!-- Row 2 -->
+          <div class="col-md-6 support-item">
+            <img src="assests/3 Enquiry.png" alt="Enquiry">
+            <div>
+              <div class="icon-title">Enquiry</div>
+              <div>+91 9355029576</div>
+              <div>info@harrisonlocks.com</div>
+            </div>
+          </div>
+          <div class="col-md-6 support-item">
+            <img src="assests/4 Technical Support.png" alt="Technical">
+            <div>
+              <div class="icon-title">Technical Support</div>
+              <div>+91 9355015108</div>
+              <div>technical.support@harrisonlocks.com</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Logo -->
+      <div class="col-lg-4 text-center mt-4 mt-lg-0">
+        <img src="assests/5 Make In India.png" alt="Make in India" class="lion-image mb-3">
+        <div class="toll-free">TOLL FREE NO: 1800-572-9575</div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer py-4 mt-5" style="background-color: #f7f9fc; font-family: Arial, sans-serif; color: #001f4d;">
+      <div class="container-fluid px-4">
+        <div class="row gy-4">
+          <!-- Left Image -->
+          <div class="col-12 col-md-3 text-center">
+            <img src="assests/Dharmender Ji.png" alt="Promo Image" class="img-fluid" style="max-height: 320px;">
+          </div>
+
+          <!-- Center Description -->
+          <div class="col-12 col-md-5 text-center text-md-start">
+            <img src="assests/2 Harrison Monogram.png" alt="Harrison Logo" class="mb-3" style="width: 130px;">
+            <p style="font-size: 15px; line-height: 1.7;">
+              Harrison has been known for providing the best <strong>security & hardware solutions.</strong><br>
+              We're celebrating 75+ years of setting the standards of excellence and pushing the limits of product
+              design.
+            </p>
+          </div>
+
+          <!-- Right Section -->
+          <div class="col-12 col-md-4">
+            <!-- Social Icons -->
+            <div class="mb-3 text-center text-md-start">
+              <i class="fa-brands fa-whatsapp me-3"></i>
+              <i class="fa-brands fa-instagram me-3"></i>
+              <i class="fa-brands fa-facebook-f me-3"></i>
+              <i class="fa-brands fa-linkedin-in me-3"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+
+            <!-- Email Subscription -->
+            <div class="mb-3 d-flex flex-wrap gap-2 justify-content-center justify-content-md-start">
+              <input type="email" placeholder="Enter your email address" class="form-control" style="max-width: 220px;">
+              <button class="btn btn-dark"><i class="fa-regular fa-envelope"></i></button>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="mb-2" style="font-size: 14px;">
+              <strong>QUICK LINK</strong><br>
+              <a href="#" class="me-2 text-decoration-none text-dark fw-bold d-inline-block mb-1">About us</a>
+              <a href="#" class="me-2 text-decoration-none text-dark fw-bold d-inline-block mb-1">Join us</a>
+              <a href="#" class="me-2 text-decoration-none text-dark fw-bold d-inline-block mb-1">Media</a>
+              <a href="#" class="me-2 text-decoration-none text-dark fw-bold d-inline-block mb-1">Catalogue</a>
+              <a href="#" class="me-2 text-decoration-none text-dark fw-bold d-inline-block mb-1">Gallery</a>
+              <a href="#" class="text-decoration-none text-primary fw-bold d-inline-block mb-1">Blogs</a>
+            </div>
+
+            <!-- Contact Info -->
+            <div style="font-size: 13px; line-height: 1.7; font-weight: 500;">
+              <strong>CONTACT INFO</strong><br>
+              13 & 14, Central Market, Punjabi Bagh (West),<br>
+              New Delhi-110026<br>
+              +91 114 576 1101 -10 (10 lines)<br>
+              info@harrisonlocks.com
+            </div>
+
+            <!-- Logo & Scroll Button -->
+            <div class="mt-3 d-flex justify-content-between align-items-start flex-wrap">
+              <img src="assests/3 ALPL Logo.png" alt="ALIPL Logo" style="height: 35px;">
+              <button class="btn btn-primary btn-sm mt-2 mt-md-0"
+                onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">↑</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+  <!-- Bootstrap Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

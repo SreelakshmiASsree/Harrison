@@ -1,0 +1,562 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+.top-bar {
+  background-color: #2d3d94;
+  font-size: 14px;
+  color: white;
+}
+.navbar-nav .nav-link {
+  padding: 8px 12px;
+}
+.top-icons i {
+  cursor: pointer;
+}
+.navbar .dropdown-menu {
+  font-size: 14px;
+}
+@media (max-width: 767px) {
+  .top-icons {
+    display: none !important;
+  }
+}
+
+/* hero section css code */
+.hero {
+      position: relative;
+      height: 80vh;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: url('../assests/New\ Harrison\ Website\ Banner\ 3.png') center center/cover no-repeat;
+    }
+
+    .hero h1 {
+      font-size: 3.2rem;
+      font-weight: 300;
+    }
+
+    .hero p {
+      font-size: 1.5rem;
+      margin-top: 15px;
+    }
+
+    .carousel-indicators [data-bs-target] {
+      background-color: white;
+    }
+
+    .arrow-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 2rem;
+      background: rgba(255, 255, 255, 0.3);
+      border: none;
+      padding: 10px 15px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    .arrow-left {
+      left: 10px;
+    }
+
+    .arrow-right {
+      right: 10px;
+    }
+
+    .right-logo-slider {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .right-logo-slider img {
+      width: 120px;
+      background: #fff;
+      padding: 5px;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      .hero p {
+        font-size: 1.1rem;
+      }
+      .right-logo-slider img {
+        width: 90px;
+      }
+    }
+
+    /* about us section css code */
+     .hero-section {
+      position: relative;
+      background: url('../assests/New\ Harrison\ Website\ Banner\ 3.png') no-repeat top center/cover;
+      height: 100vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+
+    .hero-overlay {
+      background-color: rgba(0, 33, 71, 0.7);
+      padding: 50px;
+      max-width: 420px;
+      border-radius: 4px;
+      margin-left: 1072px;
+    }
+
+    .hero-overlay h5 {
+      font-size: 0.9rem;
+      font-weight: 500;
+      background-color: white;
+      color: #002147;
+      padding: 6px 12px;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+
+    .hero-overlay h2 {
+      font-weight: 700;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    .hero-overlay p {
+      font-size: 0.95rem;
+      margin-bottom: 15px;
+    }
+
+    .hero-overlay .btn {
+      background-color: white;
+      color: #002147;
+      font-weight: 600;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 2px;
+    }
+
+    .top-logo {
+      position: absolute;
+      top: 40px;
+      left: 50px;
+      width: 100px;
+    }
+
+    @media (max-width: 768px) {
+      .hero-overlay {
+        margin: 20px;
+        padding: 20px;
+      }
+
+      .hero-overlay h2 {
+        font-size: 1.2rem;
+      }
+
+      .top-logo {
+        top: 20px;
+        left: 20px;
+        width: 80px;
+      }
+    }
+
+    /* section code start css */
+     .stats-section {
+  background: #fff;
+}
+
+.stat-box {
+  text-align: center;
+  padding: 10px;
+}
+
+.stat-icon {
+  border-radius: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+}
+
+.bg-dark-blue {
+  background-color: #1c2e80;
+}
+
+.bg-light-blue {
+  background-color: #21b2f3;
+}
+
+.stat-icon img {
+  width: 140px;
+  height: auto;
+}
+
+.stat-number {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1c2e80;
+}
+
+.stat-label {
+  font-size: 1rem;
+  color: #1c2e80;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.stat-box {
+  animation: fadeInUp 0.8s ease-in-out both;
+}
+
+/* Optional staggered animation delay for each box */
+.stat-box:nth-child(1) { animation-delay: 0.1s; }
+.stat-box:nth-child(2) { animation-delay: 0.2s; }
+.stat-box:nth-child(3) { animation-delay: 0.3s; }
+.stat-box:nth-child(4) { animation-delay: 0.4s; }
+
+
+
+@media (max-width: 768px) {
+  .stat-icon {
+    height: 100px;
+    padding: 10px;
+  }
+
+  .stat-number {
+    font-size: 1.5rem;
+  }
+}
+
+/* mission and vision css code */
+.section-vm {
+      padding: 60px 15px;
+      background-color: #fff;
+    }
+
+    .vm-title {
+      font-weight: 800;
+      color: #1c6dd0;
+      font-size: 2rem;
+      margin-bottom: 15px;
+    }
+
+    .vm-subtitle {
+      font-weight: bold;
+      color: #1c1c1c;
+    }
+
+    .vm-image {
+      position: relative;
+      width: fit-content;
+      
+    }
+    .vm-image img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 400px; /* reduced height */
+  object-fit: cover; /* ensures image fills without distortion */
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+    .vm-image .bg-layer {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: #00adef;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      border-radius: 15px;
+      transform: rotate(10deg);
+    }
+
+    .vm-image img {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+
+    .mission-points {
+      font-weight: 700;
+      color: #1c2e80;
+      margin-bottom: 5px;
+    }
+
+    .quote {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #1c2e80;
+      margin-bottom: 15px;
+    }
+
+    @media (max-width: 768px) {
+      .vm-title {
+        font-size: 1.5rem;
+        margin-top: 30px;
+      }
+        .vm-image img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 330px; /* reduced height */
+  object-fit: cover; /* ensures image fills without distortion */
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+    }
+
+    /* acheivemnet and offer css code */
+    .achievements-section {
+      background-color: #fff;
+      padding: 50px 0 20px;
+    }
+
+    .achievements-section h2 {
+      font-size: 40px;
+      font-weight: 800;
+      text-align: center;
+      color: #1f2f98;
+      margin-bottom: 40px;
+    }
+
+    .achievement-slider {
+      display: flex;
+      overflow-x: auto;
+      gap: 70px;
+      padding: 0 20px;
+      scroll-snap-type: x mandatory;
+      margin-left: 192px;
+    }
+
+    .achievement-item {
+      flex: 0 0 auto;
+      width: 160px;
+      scroll-snap-align: start;
+      text-align: center;
+    }
+
+    .achievement-item img {
+      width: 100%;
+      height: 230px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    }
+
+    .year-badge {
+      margin-top: 10px;
+      display: inline-block;
+      padding: 4px 10px;
+      background: #00aaff;
+      color: #fff;
+      font-size: 13px;
+      font-weight: 600;
+      border-radius: 20px;
+    }
+
+    .achievement-title {
+      font-size: 13px;
+      font-weight: 600;
+      margin-top: 10px;
+      color: #000;
+    }
+
+    .offer-section {
+      padding: 50px 0;
+      background: #f9f9f9;
+    }
+
+    .offer-section h2 {
+      font-size: 36px;
+      font-weight: 700;
+      text-align: center;
+      color: #1f2f98;
+      margin-bottom: 40px;
+    }
+
+    .offer-section h2 span {
+      color: #00aaff;
+    }
+
+    .offer-card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      height: 100%;
+    }
+
+    .offer-card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    .offer-card h5 {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 5px;
+      color: #1f2f98;
+    }
+
+    .offer-card p {
+      font-size: 13px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .offer-card .btn {
+      background-color: #00aaff;
+      color: #fff;
+      border-radius: 30px;
+      font-size: 14px;
+      padding: 6px 20px;
+      font-weight: 600;
+    }
+
+    @media (max-width: 768px) {
+      .achievement-slider {
+        padding-left: 10px;
+        margin-left: 12px;
+      }
+      .offer-card img {
+        height: 130px;
+      }
+    }
+
+    /* digital products css code */
+     .product-section {
+      padding: 60px 20px;
+    }
+    .product-title {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #1b2c6b;
+    }
+    .product-subtitle {
+      font-weight: 600;
+      font-size: 1.2rem;
+      color: #1b2c6b;
+    }
+    .product-text {
+      color: #222;
+      margin-top: 10px;
+      margin-bottom: 30px;
+    }
+    .read-more-btn {
+      background-color: #1b2c6b;
+      color: white;
+      border: none;
+      padding: 10px 25px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+    .read-more-btn:hover {
+      background-color: #0d1a4f;
+    }
+    .info-card {
+      border: none;
+      box-shadow: 0 0 10px rgba(0,0,0,0.08);
+      border-radius: 10px;
+      padding: 10px;
+      text-align: center;
+      height: 100%;
+    }
+    .info-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .info-card h6 {
+      font-size: 0.8rem;
+      margin: 10px 0 5px;
+      color: #1b2c6b;
+      font-weight: bold;
+    }
+    .info-card .btn {
+      font-size: 0.7rem;
+      padding: 3px 8px;
+      background-color: #00AEEF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+    
+    .lock-img img {
+  width: 100%;
+  max-width: 100%;
+  height: 500px; /* Adjust height here as needed */
+  object-fit: contain; /* Ensures image maintains aspect ratio */
+}
+/* Optional: Custom styling if needed */
+.product-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.product-subtitle {
+  font-size: 1.25rem;
+  color: #666;
+}
+
+.product-text {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.info-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+
+@media (max-width: 768px) {
+  .lock-img img {
+    height: 300px; /* Reduced height for mobile view */
+  }
+}
+
+@media (max-width: 767.98px) {
+  .navbar-brand img {
+    max-height: 30px;
+  }
+
+  .navbar img[alt="Hero"] {
+    max-height: 50px;
+    margin-top: 10px;
+  }
+}
+
+ /* Existing CSS */
+
+/* Add new responsive rules below */
+
