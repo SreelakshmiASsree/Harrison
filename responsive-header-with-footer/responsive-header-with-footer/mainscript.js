@@ -162,3 +162,41 @@ document.getElementById("prevBtn").addEventListener("click", () => {
   heroSlider.style.backgroundImage = `url('${sliderImages[currentIndex]}')`;
   setActiveDot(currentIndex);
 });
+
+
+  function animateCountUp(el) {
+    const target = +el.getAttribute('data-target');
+    const duration = 2000; // total duration in ms
+    const frameRate = 30;  // updates per second
+    const totalFrames = Math.round(duration / (1000 / frameRate));
+    let frame = 0;
+
+    const counter = setInterval(() => {
+      frame++;
+      const progress = frame / totalFrames;
+      const current = Math.round(target * progress);
+
+      el.textContent = current + '+';
+
+      if (frame === totalFrames) {
+        clearInterval(counter);
+        el.textContent = target + '+';
+      }
+    }, 1000 / frameRate);
+  }
+
+  // Observer to trigger animation on scroll into view
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const el = entry.target;
+        animateCountUp(el);
+        observer.unobserve(el); // Only trigger once
+      }
+    });
+  }, { threshold: 0.6 });
+
+  // Observe all .count-up elements
+  document.querySelectorAll('.count-up').forEach(el => {
+    observer.observe(el);
+  });
